@@ -1,0 +1,187 @@
+@media (max-width: 1000px) {
+
+    .hero-content {
+        grid-template-columns: 1fr;
+        padding: 70px 0;
+    }
+
+    .hero-card {
+        max-width: 550px;
+    }
+
+    .stats-grid,
+    .service-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .department-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .scheme-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .department-service-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .dashboard-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 760px) {
+
+    .top-content {
+        padding: 7px 0;
+    }
+
+    .top-content > span {
+        display: none;
+    }
+
+    .top-content {
+        justify-content: center;
+    }
+
+    .header-content {
+        min-height: 85px;
+    }
+
+    .emblem {
+        width: 50px;
+        height: 50px;
+        font-size: 22px;
+    }
+
+    .brand h1 {
+        font-size: 18px;
+    }
+
+    .government-name {
+        font-size: 10px;
+    }
+
+    .mobile-menu {
+        display: block;
+        color: var(--primary);
+    }
+
+    .nav-container {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px 0;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .nav-links a {
+        padding: 12px;
+    }
+
+    .nav-search {
+        width: 100%;
+    }
+
+    .nav-search input {
+        width: 100%;
+    }
+
+    .hero h2 {
+        font-size: 38px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .btn {
+        text-align: center;
+    }
+
+    .statistics {
+        margin-top: 0;
+        padding: 15px 0;
+    }
+
+    .stats-grid,
+    .department-grid,
+    .service-grid,
+    .department-service-grid,
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section {
+        padding: 60px 0;
+    }
+
+    .section-heading {
+        display: block;
+    }
+
+    .section-heading > p {
+        margin-top: 10px;
+    }
+
+    .notice-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .notice-item {
+        align-items: flex-start;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .contact-grid {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact-cards {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .contact-cards > div {
+        width: 100%;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .footer-bottom .container {
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        padding: 15px 0;
+    }
+
+    .department-hero-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .department-hero h2 {
+        font-size: 32px;
+    }
+
+    .department-stat-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
